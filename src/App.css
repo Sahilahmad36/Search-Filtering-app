@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+body{
+ 
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background: rgb(236, 233, 233);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.filter{
+  width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid red;
+}
+.btn{
+  height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 2px;
+}
+.api{
+  text-align: justify;
+  border: 1px solid gray;
+  margin: 25px;
+}
+.style{
+  color: #d57c0f;
+}
+.list{
+  color: rgb(5, 2, 2);
+  
+}
+.comm{
+  color: black;
 }
